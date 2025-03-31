@@ -33,7 +33,7 @@ export function App() {
       <button  onClick={handleSubmit} className="bg-orange w-full uppercase tracking-1 font-bold rounded-3xl text-sm py-3 hover:bg-white hover:text-orange cursor-pointer">Submit</button>
     </div>
     ) : (
-      <div className="bg-gradient-dark text-white mx-6 p-6 rounded-2xl font-overpass max-103">
+      <div className="bg-gradient-dark text-white mx-6 p-6 rounded-2xl font-overpass max-w-103">
       <img className="mx-auto mb-6" src={illustrationThankYou} alt="ilustração Thank you" />
 
       <p className="text-orange bg-dark-blue w-fit mx-auto px-3 py-1.25 rounded-3xl mb-6">You selected {notaAvaliacao} out of 5</p>
